@@ -1,3 +1,6 @@
+const SPOONACULAR_KEY = "e8765e1c520343ed8e5516ddb4645786"; 
+
+
 
 const mealInput = document.getElementById("meal");
 const ingredientInput = document.getElementById("ingredient");
@@ -17,7 +20,8 @@ searchBtn.addEventListener("click", async () =>
   try 
   {
     const query = new URLSearchParams({ meal, ingredient, diet });
-    const response = await fetch(`/api/search?${query}`);
+   const response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${meal}&includeIngredients=${ingredient}&diet=${diet}&number=5&apiKey=${SPOONACULAR_KEY}`);
+
     const data = await response.json();
 // Display recipes
     if (!data.results || data.results.length === 0) 
