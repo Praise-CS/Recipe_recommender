@@ -6,7 +6,7 @@
 * *Last Modification Date*: 06 11 2025
 * *Lab URL*: <http://localhost:3000/>* 
 * *Lab Git URL*: <https://git.cs.dal.ca/pbabalola/csci-3172/-/tree/main/labs/lab4>
-* *Lab Nextfity URL*: <http://example.com/>
+* *Lab Netlify URL*: <https://recipe-recommender-betav.netlify.app/>
 
 
 
