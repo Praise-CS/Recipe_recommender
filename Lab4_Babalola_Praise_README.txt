@@ -7,6 +7,8 @@
 * *Lab URL*: <http://localhost:3000/>* 
 * *Lab Git URL*: <https://git.cs.dal.ca/pbabalola/csci-3172/-/tree/main/labs/lab4>
 * *Lab Netlify URL*: <https://recipe-recommender-betav.netlify.app/>
+* *Lab Git Hub*: <https://github.com/Praise-CS/Recipe_recommender>
+
 
 
 
