@@ -1,0 +1,173 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body 
+{
+  background: linear-gradient(135deg, #f6f8fc, #e0e7ff);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+header 
+{
+  background: linear-gradient(90deg, #6c63ff, #836fff);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header 
+{
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+h1 {
+	font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p 
+{
+  font-size: 1rem;
+
+  opacity: 0.9;
+}
+
+/* Main Container */
+main {
+  flex: 1;
+  max-width: 800px;
+
+  margin: 30px auto;
+  background: white;
+
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Container */
+.form-container 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Input Groups */
+.input-group label
+ {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.input-group input,.input-group select
+{
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus,.input-group select:focus
+{
+  border: 1px solid #6c63ff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.2);
+}
+
+/* Button */
+#searchBtn 
+{
+
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#searchBtn:hover
+{
+  background-color: #5848d6;
+
+  transform: translateY(-2px);
+}
+
+/* Results*/
+#results 
+
+{
+  margin-top: 1.5rem;
+}
+
+#results h2 {
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+ h2 {
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+
+#recipes-container 
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.recipe-card 
+{
+  background: #f9f9ff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.recipe-card:hover 
+{
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.1);
+}
+
+.recipe-card h3 
+{
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.recipe-card a 
+{
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.recipe-card a:hover 
+{
+  text-decoration: underline;
+}
+
